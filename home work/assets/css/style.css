@@ -1,0 +1,66 @@
+#head{
+  background-image: url(../img/beach.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh; 
+text-align: center;
+justify-content: center;
+align-items: center;
+padding: 0 20px;
+color: #926239;
+}
+.inner{position: absolute;
+top: 30%;
+right: 1px;
+left: 1px;
+}
+
+#div-1{background-color:#926239;
+  background-size: cover;
+padding: 20px;
+font-size: 20px;
+color: white;
+text-align: center;}
+
+#div-2{padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #926239}
+
+#div-3{background-color:#926239;
+  background-size: cover;
+padding: 20px;
+font-size: 20px;
+color: white;
+text-align: center;
+width: 580px;
+height: 80px;
+display: inline-block;}
+
+#div-4{padding: 20px;
+    font-size: 20px;
+  text-align: center;
+  color: #926239;
+  width: 580px;
+  height: 80px;
+  display: inline-block;}
+
+#div-5{background-color:#926239;
+  background-size: cover;
+padding: 20px;
+font-size: 20px;
+color: white;
+text-align: center;
+width: 580px;
+height: 80px;
+display: inline-block;}
+
+
+
+.button{position: absolute;
+  border-radius: 10px;
+ color:#926239;
+ background-color: aliceblue;
+ padding: 15px;
+ min-height: 30px;
+ min-width: 120px;}
