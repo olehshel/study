@@ -1,4 +1,8 @@
-#head{
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
   background-image: url(../img/beach.jpg);
 background-size: cover;
 background-position: center;
@@ -9,25 +13,28 @@ align-items: center;
 padding: 0 20px;
 color: #926239;
 }
-.inner{position: absolute;
+.inner{
+  position: absolute;
 top: 30%;
 right: 1px;
 left: 1px;
 }
 
-#div-1{background-color:#926239;
+.div-1{
+  background-color:#926239;
   background-size: cover;
-padding: 20px;
-font-size: 20px;
-color: white;
-text-align: center;}
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  text-align: center;}
 
-#div-2{padding: 20px;
+.div-2{padding: 20px;
   font-size: 20px;
   text-align: center;
   color: #926239}
 
-#div-3{background-color:#926239;
+.div-3{
+  background-color:#926239;
   background-size: cover;
 padding: 20px;
 font-size: 20px;
@@ -37,15 +44,17 @@ width: 560px;
 height: 80px;
 display: inline-block;}
 
-#div-4{padding: 20px;
-    font-size: 20px;
+.div-4{
+  padding: 20px;
+  font-size: 20px;
   text-align: center;
   color: #926239;
   width: 560px;
   height: 80px;
   display: inline-block;}
 
-#div-5{background-color:#926239;
+.div-5{
+  background-color:#926239;
   background-size: cover;
 padding: 20px;
 font-size: 20px;
@@ -55,12 +64,15 @@ width: 560px;
 height: 80px;
 display: inline-block;}
 
-
-
-.button{position: absolute;
+.button{
+  display: inline-block;
+  color: #926239;
   border-radius: 10px;
- color:#926239;
- background-color: aliceblue;
  padding: 15px;
- min-height: 30px;
- min-width: 120px;}
+ border: 1px solid #926239;
+}
+
+.button:hover{
+  background-color: #926239;
+  color: aliceblue;
+}

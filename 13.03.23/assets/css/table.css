@@ -1,0 +1,54 @@
+*{border-collapse: collapse; 
+  margin: 0px;
+  box-sizing: border-box;
+ }
+
+
+table{border-radius: 1em;
+  border: 10px;
+  border-collapse: collapse;
+  overflow: hidden;
+  text-align: center;
+  margin: 50px auto;
+
+}
+
+td, th{
+  padding:20px;
+  height: 40px;
+ }
+
+thead{
+  text-align: center;
+  font-weight: bolt;
+  /* height: 40px; */
+}
+
+#t1{
+  background-color: rgb(187, 187, 219);
+color: white;
+}
+
+#t2{
+  background-color: rgb(178, 178, 226);
+color: white;
+text-indent: 10;
+}
+
+#t3{
+  background-color: rgb(141, 141, 219);
+color: white;
+
+}
+#t4{
+  background-color: rgb(109, 109, 211);
+color: white;
+
+}
+#t5{
+  background-color: rgb(9, 9, 146);
+color: white;
+
+}
+
+
